@@ -2,6 +2,7 @@ package src;
 /**
  * Interface defining common operations for a generic list.
  * @param <T> the type of elements in the list
+ *
  */
 public interface MyList<T> {
     void add(T item);       // Add an item to the end of the list
